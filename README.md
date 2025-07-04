@@ -35,7 +35,7 @@ AgroLens is a comprehensive agricultural technology platform that helps farmers 
 ### Frontend Setup
 ```bash
 # Clone the repository
-git clone https://github.com/dharmendra23101/AgroLens.git
+git clone https://github.com/toshankanwar/agroLens.git
 cd AgroLens/frontend
 
 # Install dependencies
@@ -103,9 +103,9 @@ We welcome contributions to AgroLens! To contribute:
 - Open a Pull Request
 
 ### Contact
-## Dharmendra - GitHub Profile
+## Toshan Kanwar - GitHub Profile
 
-## Project Link: https://github.com/dharmendra23101/AgroLens
+## Project Link: https://github.com/toshankanwar/agroLens
 
 Made with ❤️ for farmers everywhere
 

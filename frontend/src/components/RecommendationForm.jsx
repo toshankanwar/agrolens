@@ -233,7 +233,7 @@ function RecommendationForm() {
     
     try {
       // Get API URL from environment with fallback
-      const apiBaseUrl = import.meta.env.VITE_RECOMMEND_API || "https://crop-recommendation-api-393g.onrender.com";
+      const apiBaseUrl = import.meta.env.VITE_RECOMMEND_API || "http://localhost:5002";
       console.log("Submitting form data to:", `${apiBaseUrl}/predict_crop`);
       console.log("Form data:", formData);
       

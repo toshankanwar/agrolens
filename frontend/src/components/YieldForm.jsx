@@ -239,7 +239,8 @@ function YieldForm() {
     
     try {
       console.log("Submitting form data:", formData);
-      const response = await axios.post(`${import.meta.env.VITE_YIELD_API}/predict_yield`, formData);
+      const apiBaseUrl = import.meta.env.VITE_RECOMMEND_API || "http://localhost:5000";
+      const response = await axios.post(`${apiBaseUrl}/predict_yield`, formData);
       console.log("API response:", response.data);
       
       if (response.data && response.data.prediction) {

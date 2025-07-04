@@ -7,7 +7,7 @@ import logging
 
 app = Flask(__name__)
 
-CORS(app, resources={r"/*": {"origins": ["https://agrolens.toshankanwar.website"]}}, supports_credentials=True)
+CORS(app, resources={r"/*": {"origins": ["https://agrolens.toshankanwar.website","http://localhost:5173"]}}, supports_credentials=True)
 
 
 # Set up logging

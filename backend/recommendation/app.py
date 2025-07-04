@@ -4,7 +4,7 @@ import numpy as np
 import pickle
 
 app = Flask(__name__)
-CORS(app, resources={r"/*": {"origins": ["https://agrolens.toshankanwar.website"]}}, supports_credentials=True)
+CORS(app, resources={r"/*": {"origins": ["https://agrolens.toshankanwar.website","http://localhost:5173"]}}, supports_credentials=True)
 
 
 # Load model and label encoder
